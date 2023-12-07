@@ -1,0 +1,24 @@
+Installs the PostgreSQL database management system on your Ubuntu system.
+
+	1)sudo apt install postgresql
+	
+
+Checks the status of the PostgreSQL service to ensure it is running correctly.
+	2)sudo systemctl status postgresql.service:
+
+Switches to the PostgreSQL user account (postgres) to perform administrative tasks.
+
+	3)sudo -i -u postgres:
+	
+Opens the PostgreSQL command-line interface, allowing you to interact with the PostgreSQL database system.
+
+	4)psql:
+
+Creates a new PostgreSQL database named "demo."
+
+	5)create database (databaseName):
+
+Lists all available databases, including the newly created "demo."
+
+	6)\l (within psql):
+
